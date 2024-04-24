@@ -13,15 +13,15 @@
         </thead>
         <tbody>
           <tr v-for="nilai in nilaiMahasiswa" :key="nilai.id_perkuliahan">
-            <td>{{ nilai.nim }}</td>
-            <td>{{ nilai.nama }}</td>
-            <td>{{ nilai.nama_mk }}</td>
-            <td>{{ nilai.nilai }}</td>
-            <td>
-              <button @click="updateNilai(nilai)" class="btn-action">Update</button>
-              <button @click="deleteNilai(nilai.nim, nilai.kode_mk)" class="btn-action btn-hapus">Hapus</button>
-            </td>
-          </tr>
+          <td>{{ nilai.nim }}</td>
+          <td>{{ nilai.nama }}</td>
+          <td>{{ nilai.nama_mk }}</td>
+          <td>{{ nilai.nilai }}</td>
+          <td>
+            <button @click="updateNilai(nilai)" class="btn-action">Update</button>
+            <button @click="deleteNilai(nilai.nim, nilai.kode_mk)" class="btn-action btn-hapus">Hapus</button>
+          </td>
+        </tr>
         </tbody>
       </table>
   
@@ -50,7 +50,7 @@
         <div class="form-input">
           <input type="number" v-model="nilaiUpdate" placeholder="Nilai Baru">
         </div>
-        <button @click="updateNilai" class="btn-update">Update</button>
+        <button @click="saveUpdate" class="btn-update">Update</button>
       </div>
     </div>
   </template>
