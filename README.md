@@ -1,4 +1,4 @@
-# UTS PSAIT - Aplikasi Manajemen Nilai Mahasiswa
+a# UTS PSAIT - Aplikasi Manajemen Nilai Mahasiswa
 
 Aplikasi ini merupakan bagian dari tugas UTS PSAIT yang bertujuan untuk mengelola nilai mahasiswa menggunakan teknologi Laravel sebagai backend dan Vue.js sebagai frontend.
 
